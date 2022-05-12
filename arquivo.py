@@ -36,3 +36,8 @@ elif current_language == "fr_FR":
 
 print(msg)
 
+# Criação de ambiente virtual afim de preservar ambiente local:
+#       comandos utilizados:    1 - [python3 venv "nome da pasta, s/ aspas"];
+#                               2 -  [source nomedapasta/bin/activate];
+# validação do ambiente criado: 3 - [which python3], AMB.VITURAL CRIADO if == /home/vitor/Documentos/python-base/ .venv/bin/python3
+#                                                    AMB.VIRTUAL Ñ CRIADO if == /usr/bin/python3
