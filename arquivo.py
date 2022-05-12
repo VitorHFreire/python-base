@@ -18,6 +18,9 @@ Execução:
 """
 import os
 
+# os.environ = um dicionário Python contendo variáveis e seus valores.
+# os.getenv(Blá) = função usada para buscar o valor de uma variável específica(Blá).
+
 current_language = os.getenv("LANG", "en_US")[:5]
 
 msg = "Hello, World!"
