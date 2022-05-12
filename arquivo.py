@@ -16,7 +16,13 @@ Execução:
     python3 arquivo.py
 
 """
+
+current_language = "en_US"
+
 msg = "Hello, World"
+
+if current_language == "pt_BR":
+    "Olá, Mundo"
 
 print(msg)
 
